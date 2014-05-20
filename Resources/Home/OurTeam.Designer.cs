@@ -22,14 +22,14 @@ namespace SmitWinkel.Resources.Home {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Index {
+    public class OurTeam {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Index() {
+        internal OurTeam() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace SmitWinkel.Resources.Home {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SmitWinkel.Resources.Home.Index", typeof(Index).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SmitWinkel.Resources.Home.OurTeam", typeof(OurTeam).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,8 +61,24 @@ namespace SmitWinkel.Resources.Home {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The well-established, modern practise of Drs Smit &amp; Winkel sets the pace in the latest trends and technologies in dental practise, IT and related fields. Apart from regular dental and oral hygiene, specialised cosmetic and aesthetic dentistry, CAD-CAM (Cerec) technology and implantology also form part of their service offering. 
-        ///The four dental practitioners in this northern suburbs clinic share over 90 years of experience between them. Each one diligently ensure they stay informed and at the forefront of  [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Dentists:
+        ///Dr Johan Smit
+        ///Dr Richard Winkel
+        ///Dr Finnie Kelly
+        ///Dr Annetjie Smith
+        ///Oral Hygienist:
+        ///Christel Visagie
+        ///Rozanne Marais
+        ///Reception and Administration
+        ///Jackie Kapp
+        ///Sharon Sprong
+        ///Christelle Smit
+        ///Auxiliary Staff
+        ///Adele Lambrechts
+        ///Melanie du Plessis
+        ///Joléne Potgieter
+        ///Elizabeth Williams
+        ///Michelle Jejane.
         /// </summary>
         public static string Content {
             get {
@@ -71,7 +87,7 @@ namespace SmitWinkel.Resources.Home {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Our practice.
+        ///   Looks up a localized string similar to Our Staff.
         /// </summary>
         public static string Header {
             get {

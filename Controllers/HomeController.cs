@@ -16,5 +16,20 @@ namespace SmitWinkel.Controllers
             return View();
         }
 
+        public ActionResult OurTeam()
+        {
+            return View();
+        }
+
+        public ActionResult Services()
+        {
+            return View();
+        }
+
+        public ActionResult NewPatient()
+        {
+            return View();
+        }
+
     }
 }

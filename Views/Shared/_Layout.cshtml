@@ -13,6 +13,11 @@
 
 <body>
     <div>@Html.GlobalisedRouteLink(Common.OtherLanguageName, Common.OtherLanguageKey, ViewContext.RouteData)</div>
+
+    <div>@Html.ActionLink("Services", "Services")</div>
+    <div>@Html.ActionLink("Our Team", "OurTeam")</div>
+    <div>@Html.ActionLink("Home", "Index")</div>
+
     @RenderBody()
 </body>
 </html>
