@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SmitWinkel.Resources.Home {
+namespace SmitWinkel.Resources {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace SmitWinkel.Resources.Home {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Index_afr {
+    public class Common {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Index_afr() {
+        internal Common() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace SmitWinkel.Resources.Home {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SmitWinkel.Resources.Home.Index-afr", typeof(Index_afr).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SmitWinkel.Resources.Common", typeof(Common).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,20 +61,20 @@ namespace SmitWinkel.Resources.Home {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Welcome to Smit &amp; Winkel&apos;s new website.
+        ///   Looks up a localized string similar to af.
         /// </summary>
-        public static string Content {
+        public static string OtherLanguageKey {
             get {
-                return ResourceManager.GetString("Content", resourceCulture);
+                return ResourceManager.GetString("OtherLanguageKey", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Welcome.
+        ///   Looks up a localized string similar to Afrikaans.
         /// </summary>
-        public static string Header {
+        public static string OtherLanguageName {
             get {
-                return ResourceManager.GetString("Header", resourceCulture);
+                return ResourceManager.GetString("OtherLanguageName", resourceCulture);
             }
         }
     }

@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@using SmitWinkel.CustomRoutes
+@using SmitWinkel.Resources
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -9,6 +12,7 @@
 </head>
 
 <body>
+    <div>@Html.GlobalisedRouteLink(Common.OtherLanguageName, Common.OtherLanguageKey, ViewContext.RouteData)</div>
     @RenderBody()
 </body>
 </html>

@@ -117,10 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Content" xml:space="preserve">
-    <value>Welcome to Smit &amp; Winkel's new website</value>
+  <data name="OtherLanguageKey" xml:space="preserve">
+    <value>en</value>
   </data>
-  <data name="Header" xml:space="preserve">
-    <value>Welcome</value>
+  <data name="OtherLanguageName" xml:space="preserve">
+    <value>English</value>
   </data>
 </root>

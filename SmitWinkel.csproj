@@ -95,19 +95,36 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="CustomRoutes\CultureFormatChecker.cs" />
+    <Compile Include="CustomRoutes\CultureManager.cs" />
+    <Compile Include="CustomRoutes\CultureRouteConstraint.cs" />
+    <Compile Include="CustomRoutes\GlobalisationHtmlHelperExtensions.cs" />
+    <Compile Include="CustomRoutes\GlobalisationRouteHandler.cs" />
+    <Compile Include="CustomRoutes\GlobalisedRoute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Resources\Home\Index-afr.Designer.cs">
-      <DependentUpon>Index-afr.resx</DependentUpon>
+    <Compile Include="Resources\Common.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Common.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Common.af.Designer.cs">
+      <DependentUpon>Common.af.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Include="Resources\Home\Index-en.Designer.cs">
+    <Compile Include="Resources\Home\Index.af.Designer.cs">
+      <DependentUpon>Index.af.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Index-en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Home\Index.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Index.resx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -203,7 +220,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
     <Folder Include="Resources\Shared\" />
   </ItemGroup>
@@ -211,13 +227,21 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\Home\Index-afr.resx">
+    <EmbeddedResource Include="Resources\Common.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Index-afr.Designer.cs</LastGenOutput>
+      <LastGenOutput>Common.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Home\Index-en.resx">
+    <EmbeddedResource Include="Resources\Common.af.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Index-en.Designer.cs</LastGenOutput>
+      <LastGenOutput>Common.af.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Home\Index.af.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Index.af.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Home\Index.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Index.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
