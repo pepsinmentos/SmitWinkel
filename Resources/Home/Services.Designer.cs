@@ -88,5 +88,113 @@ namespace SmitWinkel.Resources.Home {
                 return ResourceManager.GetString("Header", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Restorative dentistry.
+        /// </summary>
+        public static string Service1 {
+            get {
+                return ResourceManager.GetString("Service1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Digital &amp; Panoramic Radiology.
+        /// </summary>
+        public static string Service10 {
+            get {
+                return ResourceManager.GetString("Service10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Prosthodontics.
+        /// </summary>
+        public static string Service11 {
+            get {
+                return ResourceManager.GetString("Service11", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Oral hygiene.
+        /// </summary>
+        public static string Service12 {
+            get {
+                return ResourceManager.GetString("Service12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Aesthetic Dentistry.
+        /// </summary>
+        public static string Service2 {
+            get {
+                return ResourceManager.GetString("Service2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gumguards.
+        /// </summary>
+        public static string Service3 {
+            get {
+                return ResourceManager.GetString("Service3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Implantology.
+        /// </summary>
+        public static string Service4 {
+            get {
+                return ResourceManager.GetString("Service4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Teeth whitening.
+        /// </summary>
+        public static string Service5 {
+            get {
+                return ResourceManager.GetString("Service5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Conscious sedation.
+        /// </summary>
+        public static string Service6 {
+            get {
+                return ResourceManager.GetString("Service6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Paediatric Dentistry.
+        /// </summary>
+        public static string Service7 {
+            get {
+                return ResourceManager.GetString("Service7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to CAD-CAM – computerized dentistry (Cerec).
+        /// </summary>
+        public static string Service8 {
+            get {
+                return ResourceManager.GetString("Service8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Root canal treatment.
+        /// </summary>
+        public static string Service9 {
+            get {
+                return ResourceManager.GetString("Service9", resourceCulture);
+            }
+        }
     }
 }

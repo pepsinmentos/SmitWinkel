@@ -117,81 +117,206 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AuxilaryStaff1" xml:space="preserve">
-    <value>Adele Lambrechts</value>
+  <data name="AIDS" xml:space="preserve">
+    <value>Vigs</value>
   </data>
-  <data name="AuxilaryStaff2" xml:space="preserve">
-    <value>Melanie du Plessis</value>
+  <data name="Allergies" xml:space="preserve">
+    <value>Allergieë</value>
   </data>
-  <data name="AuxilaryStaff3" xml:space="preserve">
-    <value>Joléne Potgieter</value>
+  <data name="Astma" xml:space="preserve">
+    <value>Asma</value>
   </data>
-  <data name="AuxilaryStaff4" xml:space="preserve">
-    <value>Elizabeth Williams</value>
+  <data name="Bleeding" xml:space="preserve">
+    <value>Enige bloedneigings of porfirie in u familie?</value>
   </data>
-  <data name="AuxilaryStaff5" xml:space="preserve">
-    <value>Michelle Jejane</value>
-  </data>
-  <data name="AuxilaryStaffSubHeader" xml:space="preserve">
-    <value>Aanvullende Personeel:</value>
+  <data name="CellNumber" xml:space="preserve">
+    <value>Sel nr (*)</value>
   </data>
   <data name="Content" xml:space="preserve">
-    <value>Tandartse:
-Dr Johan Smit
-Dr Richard Winkel
-Dr Finnie Kelly
-Dr Annetjie Smith
-Mondhigiëniste:
-Christel Visagie
-Rozanne Marais
-Ontvangs en Administrasie
-Jackie Kapp
-Sharon Sprong
-Christelle Smit
-Aanvullende Personeel
-Adele Lambrechts
-Melanie du Plessis
-Joléne Potgieter
-Elizabeth Williams
-Michelle Jejane</value>
+    <value>PERSOON VERANTWOORDELIK VIR DIE REKENING.
+Titel	
+Voorletters (*)	
+Van (*)	
+Woonadres	
+Posadres	
+Huis nr	
+Werk nr	
+Sel nr (*)	
+Mediese Fonds	
+Medies Nommer	
+ID nommer	
+Beroep	
+Naam van Werkgewer	
+E-mail (*)	
+Naam van vriend of familielid	
+Nie van dieselfde adres
+
+
+
+VERSKAF DIE VOLGENDE INLIGTING OOR DIE PASIENT
+Pasiënt Van	
+Pasiënt Volle naam	
+Pasiënt Geboortedatum	
+Pasiënt ID nommer	
+Pasiënt Beroep	
+Pasiënt Wergewer	
+Pasiënt Huistaal	
+Pasiënt Huwelikstatus	
+Pasiënt Huis nr	
+Pasiënt Werk nr	
+Pasiënt Sel nr	
+Pasiënt Mediese Afhanklike nr	
+
+
+
+
+DUI AAN WATTER IS VAN TOEPASSING
+Rumatiekkoors	
+Koronere trombose of hartprobleme	
+Hoe bloeddruk	
+Suikersiekte	
+Nierprobleme	
+Geelsug	
+Vigs	
+Asma	
+Allergiee	
+Enige bloedneigings of porfirie in u familie?	
+Indien vroulik, is u op die oomblik swanger?	
+Ander?	
+Gebruik u enige medisyne op die oomblik?	
+Rook u?	
+Gebruik u behandeling vir Osteoperose?</value>
   </data>
-  <data name="Dentist1" xml:space="preserve">
-    <value>Dr Johan Smit</value>
+  <data name="CoronaryTrombosis" xml:space="preserve">
+    <value>Koronere trombose of hartprobleme</value>
   </data>
-  <data name="Dentist2" xml:space="preserve">
-    <value>Dr Richard Winkel</value>
+  <data name="Diabetes" xml:space="preserve">
+    <value>Suikersiekte</value>
   </data>
-  <data name="Dentist3" xml:space="preserve">
-    <value>Dr Finnie Kelly</value>
+  <data name="Email" xml:space="preserve">
+    <value>E-pos (*)</value>
   </data>
-  <data name="Dentist4" xml:space="preserve">
-    <value>Dr Annetjie Smith</value>
-  </data>
-  <data name="DentistsSubHeader" xml:space="preserve">
-    <value>Tandartse:</value>
+  <data name="Employer" xml:space="preserve">
+    <value>Naam van Werkgewer</value>
   </data>
   <data name="Header" xml:space="preserve">
-    <value>Ons Personeel</value>
+    <value>Patient Information Sheet</value>
   </data>
-  <data name="OralHygienist1" xml:space="preserve">
-    <value>Christel Visagie</value>
+  <data name="Hepatitus" xml:space="preserve">
+    <value>Geelsug</value>
   </data>
-  <data name="OralHygienist2" xml:space="preserve">
-    <value>Rozanne Marais</value>
+  <data name="HomeNumber" xml:space="preserve">
+    <value>Huis nr</value>
   </data>
-  <data name="OralHygienistSubHeader" xml:space="preserve">
-    <value>Mondhigiëniste:</value>
+  <data name="Hypertension" xml:space="preserve">
+    <value>Hoe bloeddruk</value>
   </data>
-  <data name="ReceptionAdmin1" xml:space="preserve">
-    <value>Jackie Kapp</value>
+  <data name="IDNumber" xml:space="preserve">
+    <value>ID nommer</value>
   </data>
-  <data name="ReceptionAdmin2" xml:space="preserve">
-    <value>Sharon Sprong</value>
+  <data name="Initials" xml:space="preserve">
+    <value>Voorletters (*)</value>
   </data>
-  <data name="ReceptionAdmin3" xml:space="preserve">
-    <value>Christelle Smit</value>
+  <data name="KidneyDisease" xml:space="preserve">
+    <value>Nierprobleme</value>
   </data>
-  <data name="ReceptionAdminSubHeader" xml:space="preserve">
-    <value>Ontvangs en Administrasie:</value>
+  <data name="MedicalAid" xml:space="preserve">
+    <value>Mediese Fonds</value>
+  </data>
+  <data name="MedicalAidNumber" xml:space="preserve">
+    <value>Medies Nommer</value>
+  </data>
+  <data name="Medication" xml:space="preserve">
+    <value>Gebruik u enige medisyne op die oomblik?</value>
+  </data>
+  <data name="NearestFamily" xml:space="preserve">
+    <value>Naam van vriend of familielid</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Volgende</value>
+  </data>
+  <data name="NotFromSameAddress" xml:space="preserve">
+    <value>(nie van dieselfde adres)</value>
+  </data>
+  <data name="Occupation" xml:space="preserve">
+    <value>Beroep</value>
+  </data>
+  <data name="Osteoporosis" xml:space="preserve">
+    <value>Gebruik u behandeling vir Osteoperose?</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Ander?</value>
+  </data>
+  <data name="PatientCellNumber" xml:space="preserve">
+    <value>Pasiënt Sel nr</value>
+  </data>
+  <data name="PatientCompany" xml:space="preserve">
+    <value>Patient Company</value>
+  </data>
+  <data name="PatientDateOfBirth" xml:space="preserve">
+    <value>Pasiënt Geboortedatum</value>
+  </data>
+  <data name="PatientFullName" xml:space="preserve">
+    <value>Pasiënt Volle naam</value>
+  </data>
+  <data name="PatientHomeLanguage" xml:space="preserve">
+    <value>Pasiënt Huistaal</value>
+  </data>
+  <data name="PatientHomeNumber" xml:space="preserve">
+    <value>Pasiënt Huis nr</value>
+  </data>
+  <data name="PatientIDNumber" xml:space="preserve">
+    <value>Pasiënt ID nommer</value>
+  </data>
+  <data name="PatientMaritalStatus" xml:space="preserve">
+    <value>Pasiënt Huwelikstatus</value>
+  </data>
+  <data name="PatientMedicalDependantNumber" xml:space="preserve">
+    <value>Pasiënt Mediese Afhanklike nr</value>
+  </data>
+  <data name="PatientOccupation" xml:space="preserve">
+    <value>Pasiënt Beroep</value>
+  </data>
+  <data name="PatientSurname" xml:space="preserve">
+    <value>Pasiënt Van</value>
+  </data>
+  <data name="PatientWorkNumber" xml:space="preserve">
+    <value>Pasiënt Werk nr</value>
+  </data>
+  <data name="PhysicalAddress" xml:space="preserve">
+    <value>Woonadres</value>
+  </data>
+  <data name="PostalAddress" xml:space="preserve">
+    <value>Posadres</value>
+  </data>
+  <data name="Pregnant" xml:space="preserve">
+    <value>Indien vroulik, is u op die oomblik swanger?</value>
+  </data>
+  <data name="Relationship" xml:space="preserve">
+    <value>Verhouding</value>
+  </data>
+  <data name="Rheumatic" xml:space="preserve">
+    <value>Rumatiekkoors</value>
+  </data>
+  <data name="Smoke" xml:space="preserve">
+    <value>Rook u?</value>
+  </data>
+  <data name="SubHeader1" xml:space="preserve">
+    <value>PERSOON VERANTWOORDELIK VIR DIE REKENING.</value>
+  </data>
+  <data name="SubHeader2" xml:space="preserve">
+    <value>VERSKAF DIE VOLGENDE INLIGTING OOR DIE PASIENT</value>
+  </data>
+  <data name="SubHeader3" xml:space="preserve">
+    <value>DUI AAN WATTER IS VAN TOEPASSING</value>
+  </data>
+  <data name="Surname" xml:space="preserve">
+    <value>Van (*)</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="WorkNumber" xml:space="preserve">
+    <value>Werk nr</value>
   </data>
 </root>

@@ -117,81 +117,208 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AuxilaryStaff1" xml:space="preserve">
-    <value>Adele Lambrechts</value>
+  <data name="AIDS" xml:space="preserve">
+    <value>AIDS</value>
   </data>
-  <data name="AuxilaryStaff2" xml:space="preserve">
-    <value>Melanie du Plessis</value>
+  <data name="Allergies" xml:space="preserve">
+    <value>Any allergies?</value>
   </data>
-  <data name="AuxilaryStaff3" xml:space="preserve">
-    <value>Joléne Potgieter</value>
+  <data name="Astma" xml:space="preserve">
+    <value>Astma</value>
   </data>
-  <data name="AuxilaryStaff4" xml:space="preserve">
-    <value>Elizabeth Williams</value>
+  <data name="Bleeding" xml:space="preserve">
+    <value>Any bleeding tendencies or porphyria in family?</value>
   </data>
-  <data name="AuxilaryStaff5" xml:space="preserve">
-    <value>Michelle Jejane</value>
-  </data>
-  <data name="AuxilaryStaffSubHeader" xml:space="preserve">
-    <value>Aanvullende Personeel:</value>
+  <data name="CellNumber" xml:space="preserve">
+    <value>Cell nr (*)</value>
   </data>
   <data name="Content" xml:space="preserve">
-    <value>Tandartse:
-Dr Johan Smit
-Dr Richard Winkel
-Dr Finnie Kelly
-Dr Annetjie Smith
-Mondhigiëniste:
-Christel Visagie
-Rozanne Marais
-Ontvangs en Administrasie
-Jackie Kapp
-Sharon Sprong
-Christelle Smit
-Aanvullende Personeel
-Adele Lambrechts
-Melanie du Plessis
-Joléne Potgieter
-Elizabeth Williams
-Michelle Jejane</value>
+    <value>Patient Information Sheet
+PERSON RESPONSIBLE FOR ACCOUNT.
+Title	
+Initials (*)	
+Surname (*)	
+Physical Address	
+Postal Address	
+Home nr	
+Work nr	
+Cell nr (*)	
+Medical Aid	
+Medical Number	
+ID number	
+Occupation	
+Employer	
+E-mail (*)	
+Nearest Family/Friend name	
+(not from same address)
+Relationship	
+(not from same address)
+Next
+
+
+
+PLEASE SUPPLY THE FOLLOWING INFORMATION ABOUT THE PATIENT.
+Patient Surname	
+Full name	
+Date of birth	
+Patient ID number	
+Patient Occupation	
+Company	
+Home language	
+Marital status	
+Home nr	
+Work nr	
+Cell nr	
+Patient Medical Dependant Number	
+
+
+	Have you had any of the following diseases?
+Rheumatic fever	
+Coronary Trombosis or cardiac disease	
+Hypertension	
+Diabetes	
+Kidney disease	
+Hepatitus	
+AIDS	
+Astma	
+Any allergies?	
+Any bleeding tendencies or porphyria in family?	
+If female, are you pregnant?	
+Other	
+Are you using any medication?	
+Do you smoke?	
+Do you take treatment for Osteoporosis?</value>
   </data>
-  <data name="Dentist1" xml:space="preserve">
-    <value>Dr Johan Smit</value>
+  <data name="CoronaryTrombosis" xml:space="preserve">
+    <value>Coronary Trombosis or cardiac disease</value>
   </data>
-  <data name="Dentist2" xml:space="preserve">
-    <value>Dr Richard Winkel</value>
+  <data name="Diabetes" xml:space="preserve">
+    <value>Diabetes</value>
   </data>
-  <data name="Dentist3" xml:space="preserve">
-    <value>Dr Finnie Kelly</value>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail (*)</value>
   </data>
-  <data name="Dentist4" xml:space="preserve">
-    <value>Dr Annetjie Smith</value>
-  </data>
-  <data name="DentistsSubHeader" xml:space="preserve">
-    <value>Tandartse:</value>
+  <data name="Employer" xml:space="preserve">
+    <value>Employer</value>
   </data>
   <data name="Header" xml:space="preserve">
-    <value>Ons Personeel</value>
+    <value>Patient Information Sheet</value>
   </data>
-  <data name="OralHygienist1" xml:space="preserve">
-    <value>Christel Visagie</value>
+  <data name="Hepatitus" xml:space="preserve">
+    <value>Hepatitus</value>
   </data>
-  <data name="OralHygienist2" xml:space="preserve">
-    <value>Rozanne Marais</value>
+  <data name="HomeNumber" xml:space="preserve">
+    <value>Home nr</value>
   </data>
-  <data name="OralHygienistSubHeader" xml:space="preserve">
-    <value>Mondhigiëniste:</value>
+  <data name="Hypertension" xml:space="preserve">
+    <value>Hypertension</value>
   </data>
-  <data name="ReceptionAdmin1" xml:space="preserve">
-    <value>Jackie Kapp</value>
+  <data name="IDNumber" xml:space="preserve">
+    <value>ID number</value>
   </data>
-  <data name="ReceptionAdmin2" xml:space="preserve">
-    <value>Sharon Sprong</value>
+  <data name="Initials" xml:space="preserve">
+    <value>Initials (*)</value>
   </data>
-  <data name="ReceptionAdmin3" xml:space="preserve">
-    <value>Christelle Smit</value>
+  <data name="KidneyDisease" xml:space="preserve">
+    <value>Kidney disease</value>
   </data>
-  <data name="ReceptionAdminSubHeader" xml:space="preserve">
-    <value>Ontvangs en Administrasie:</value>
+  <data name="MedicalAid" xml:space="preserve">
+    <value>Medical Aid</value>
+  </data>
+  <data name="MedicalAidNumber" xml:space="preserve">
+    <value>Medical Number</value>
+  </data>
+  <data name="Medication" xml:space="preserve">
+    <value>Are you using any medication?</value>
+  </data>
+  <data name="NearestFamily" xml:space="preserve">
+    <value>Nearest Family/Friend name</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="NotFromSameAddress" xml:space="preserve">
+    <value>(not from same address)</value>
+  </data>
+  <data name="Occupation" xml:space="preserve">
+    <value>Occupation</value>
+  </data>
+  <data name="Osteoporosis" xml:space="preserve">
+    <value>Do you take treatment for Osteoporosis?</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="PatientCellNumber" xml:space="preserve">
+    <value>Patient Cell Number</value>
+  </data>
+  <data name="PatientCompany" xml:space="preserve">
+    <value>Patient Company</value>
+  </data>
+  <data name="PatientDateOfBirth" xml:space="preserve">
+    <value>Patient Date of Birth</value>
+  </data>
+  <data name="PatientFullName" xml:space="preserve">
+    <value>Patient Full Name</value>
+  </data>
+  <data name="PatientHomeLanguage" xml:space="preserve">
+    <value>Patient Home Language</value>
+  </data>
+  <data name="PatientHomeNumber" xml:space="preserve">
+    <value>Patient Home Number</value>
+  </data>
+  <data name="PatientIDNumber" xml:space="preserve">
+    <value>Patient ID Number</value>
+  </data>
+  <data name="PatientMaritalStatus" xml:space="preserve">
+    <value>Patient Marital Status</value>
+  </data>
+  <data name="PatientMedicalDependantNumber" xml:space="preserve">
+    <value>Patient Medical Dependant Number</value>
+  </data>
+  <data name="PatientOccupation" xml:space="preserve">
+    <value>Patient Occupation</value>
+  </data>
+  <data name="PatientSurname" xml:space="preserve">
+    <value>Patient Surname</value>
+  </data>
+  <data name="PatientWorkNumber" xml:space="preserve">
+    <value>Patient Work Number</value>
+  </data>
+  <data name="PhysicalAddress" xml:space="preserve">
+    <value>Physical Address</value>
+  </data>
+  <data name="PostalAddress" xml:space="preserve">
+    <value>Postal Address</value>
+  </data>
+  <data name="Pregnant" xml:space="preserve">
+    <value>If female, are you pregnant?</value>
+  </data>
+  <data name="Relationship" xml:space="preserve">
+    <value>Relationship</value>
+  </data>
+  <data name="Rheumatic" xml:space="preserve">
+    <value>Rheumatic fever</value>
+  </data>
+  <data name="Smoke" xml:space="preserve">
+    <value>Do you smoke?</value>
+  </data>
+  <data name="SubHeader1" xml:space="preserve">
+    <value>PERSON RESPONSIBLE FOR ACCOUNT.</value>
+  </data>
+  <data name="SubHeader2" xml:space="preserve">
+    <value>PLEASE SUPPLY THE FOLLOWING INFORMATION ABOUT THE PATIENT.</value>
+  </data>
+  <data name="SubHeader3" xml:space="preserve">
+    <value>Have you had any of the following diseases?</value>
+  </data>
+  <data name="Surname" xml:space="preserve">
+    <value>Surname (*)</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="WorkNumber" xml:space="preserve">
+    <value>Work nr</value>
   </data>
 </root>

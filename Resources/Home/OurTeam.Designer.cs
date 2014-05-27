@@ -61,6 +61,60 @@ namespace SmitWinkel.Resources.Home {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Adele Lambrechts.
+        /// </summary>
+        public static string AuxilaryStaff1 {
+            get {
+                return ResourceManager.GetString("AuxilaryStaff1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Melanie du Plessis.
+        /// </summary>
+        public static string AuxilaryStaff2 {
+            get {
+                return ResourceManager.GetString("AuxilaryStaff2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Joléne Potgieter.
+        /// </summary>
+        public static string AuxilaryStaff3 {
+            get {
+                return ResourceManager.GetString("AuxilaryStaff3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Elizabeth Williams.
+        /// </summary>
+        public static string AuxilaryStaff4 {
+            get {
+                return ResourceManager.GetString("AuxilaryStaff4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Michelle Jejane.
+        /// </summary>
+        public static string AuxilaryStaff5 {
+            get {
+                return ResourceManager.GetString("AuxilaryStaff5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Auxiliary Staff:.
+        /// </summary>
+        public static string AuxilaryStaffSubHeader {
+            get {
+                return ResourceManager.GetString("AuxilaryStaffSubHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Dentists:
         ///Dr Johan Smit
         ///Dr Richard Winkel
@@ -87,11 +141,119 @@ namespace SmitWinkel.Resources.Home {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Dr Johan Smit.
+        /// </summary>
+        public static string Dentist1 {
+            get {
+                return ResourceManager.GetString("Dentist1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dr Richard Winkel.
+        /// </summary>
+        public static string Dentist2 {
+            get {
+                return ResourceManager.GetString("Dentist2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dr Finnie Kelly.
+        /// </summary>
+        public static string Dentist3 {
+            get {
+                return ResourceManager.GetString("Dentist3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dr Annetjie Smith.
+        /// </summary>
+        public static string Dentist4 {
+            get {
+                return ResourceManager.GetString("Dentist4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dentists:.
+        /// </summary>
+        public static string DentistsSubHeader {
+            get {
+                return ResourceManager.GetString("DentistsSubHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Our Staff.
         /// </summary>
         public static string Header {
             get {
                 return ResourceManager.GetString("Header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Christel Visagie.
+        /// </summary>
+        public static string OralHygienist1 {
+            get {
+                return ResourceManager.GetString("OralHygienist1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rozanne Marais.
+        /// </summary>
+        public static string OralHygienist2 {
+            get {
+                return ResourceManager.GetString("OralHygienist2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Oral Hygienist:.
+        /// </summary>
+        public static string OralHygienistSubHeader {
+            get {
+                return ResourceManager.GetString("OralHygienistSubHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Jackie Kapp.
+        /// </summary>
+        public static string ReceptionAdmin1 {
+            get {
+                return ResourceManager.GetString("ReceptionAdmin1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sharon Sprong.
+        /// </summary>
+        public static string ReceptionAdmin2 {
+            get {
+                return ResourceManager.GetString("ReceptionAdmin2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Christelle Smit.
+        /// </summary>
+        public static string ReceptionAdmin3 {
+            get {
+                return ResourceManager.GetString("ReceptionAdmin3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Reception and Administration:.
+        /// </summary>
+        public static string ReceptionAdminSubHeader {
+            get {
+                return ResourceManager.GetString("ReceptionAdminSubHeader", resourceCulture);
             }
         }
     }

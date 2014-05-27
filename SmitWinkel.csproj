@@ -116,6 +116,46 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
+    <Compile Include="Resources\Home\Appointment.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Appointment.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Home\ContactUs.af.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ContactUs.af.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Home\Appointment.af.Designer.cs">
+      <DependentUpon>Appointment.af.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Home\ContactUs.Designer.cs">
+      <DependentUpon>ContactUs.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Home\PatientForm.af.Designer.cs">
+      <DependentUpon>PatientForm.af.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Home\NewPatient.af.Designer.cs">
+      <DependentUpon>NewPatient.af.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Home\NewPatient.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NewPatient.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Home\PatientForm.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PatientForm.resx</DependentUpon>
+    </Compile>
     <Compile Include="Resources\Home\Services.af.Designer.cs">
       <DependentUpon>Services.af.resx</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -269,6 +309,38 @@
     <EmbeddedResource Include="Resources\Common.af.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Common.af.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Home\Appointment.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Appointment.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Home\ContactUs.af.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ContactUs.af.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Home\Appointment.af.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Appointment.af.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Home\ContactUs.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ContactUs.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Home\PatientForm.af.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>PatientForm.af.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Home\NewPatient.af.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>NewPatient.af.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Home\NewPatient.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>NewPatient.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Home\PatientForm.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>PatientForm.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\Home\Services.af.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>

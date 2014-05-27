@@ -117,81 +117,78 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AuxilaryStaff1" xml:space="preserve">
-    <value>Adele Lambrechts</value>
-  </data>
-  <data name="AuxilaryStaff2" xml:space="preserve">
-    <value>Melanie du Plessis</value>
-  </data>
-  <data name="AuxilaryStaff3" xml:space="preserve">
-    <value>Joléne Potgieter</value>
-  </data>
-  <data name="AuxilaryStaff4" xml:space="preserve">
-    <value>Elizabeth Williams</value>
-  </data>
-  <data name="AuxilaryStaff5" xml:space="preserve">
-    <value>Michelle Jejane</value>
-  </data>
-  <data name="AuxilaryStaffSubHeader" xml:space="preserve">
-    <value>Aanvullende Personeel:</value>
+  <data name="ContactNumber" xml:space="preserve">
+    <value>Kontaknommer (*)</value>
   </data>
   <data name="Content" xml:space="preserve">
-    <value>Tandartse:
-Dr Johan Smit
-Dr Richard Winkel
-Dr Finnie Kelly
-Dr Annetjie Smith
-Mondhigiëniste:
-Christel Visagie
-Rozanne Marais
-Ontvangs en Administrasie
-Jackie Kapp
-Sharon Sprong
-Christelle Smit
-Aanvullende Personeel
-Adele Lambrechts
-Melanie du Plessis
-Joléne Potgieter
-Elizabeth Williams
-Michelle Jejane</value>
+    <value>Maak 'n afspraak
+
+Voltooi asb die volgende vorm om 'n afspraak te maak. 
+Ons sal u binnekort kontak om die tyd en datum van u afspraak te bevestig.
+
+Volle name (*)
+
+
+Van (*)
+
+
+E-pos (*)
+
+
+Kontaknommer (*)
+
+
+Hoe moet ons u kontak?
+E-posFoon
+
+Het u 'n mediesefonds of is u 'n privaat pasient? (*)
+MediesefondsPrivaat
+
+Wanneer sou u graag 'n afspraak wou he? (*)
+
+
+Rede vir u afspraak / enige verdere inligting?</value>
   </data>
-  <data name="Dentist1" xml:space="preserve">
-    <value>Dr Johan Smit</value>
+  <data name="Email" xml:space="preserve">
+    <value>E-pos (*)</value>
   </data>
-  <data name="Dentist2" xml:space="preserve">
-    <value>Dr Richard Winkel</value>
+  <data name="Email2" xml:space="preserve">
+    <value>E-pos</value>
   </data>
-  <data name="Dentist3" xml:space="preserve">
-    <value>Dr Finnie Kelly</value>
-  </data>
-  <data name="Dentist4" xml:space="preserve">
-    <value>Dr Annetjie Smith</value>
-  </data>
-  <data name="DentistsSubHeader" xml:space="preserve">
-    <value>Tandartse:</value>
+  <data name="FullName" xml:space="preserve">
+    <value>Volle name (*)</value>
   </data>
   <data name="Header" xml:space="preserve">
-    <value>Ons Personeel</value>
+    <value>Maak 'n afspraak</value>
   </data>
-  <data name="OralHygienist1" xml:space="preserve">
-    <value>Christel Visagie</value>
+  <data name="HowShouldWeContact" xml:space="preserve">
+    <value>Hoe moet ons u kontak?</value>
   </data>
-  <data name="OralHygienist2" xml:space="preserve">
-    <value>Rozanne Marais</value>
+  <data name="MedicalAid" xml:space="preserve">
+    <value>Mediesefonds</value>
   </data>
-  <data name="OralHygienistSubHeader" xml:space="preserve">
-    <value>Mondhigiëniste:</value>
+  <data name="MedicalAidQuestion" xml:space="preserve">
+    <value>Het u 'n mediesefonds of is u 'n privaat pasient? (*)</value>
   </data>
-  <data name="ReceptionAdmin1" xml:space="preserve">
-    <value>Jackie Kapp</value>
+  <data name="Phone" xml:space="preserve">
+    <value>Foon</value>
   </data>
-  <data name="ReceptionAdmin2" xml:space="preserve">
-    <value>Sharon Sprong</value>
+  <data name="PleaseComplete" xml:space="preserve">
+    <value>Voltooi asb die volgende vorm om 'n afspraak te maak.</value>
   </data>
-  <data name="ReceptionAdmin3" xml:space="preserve">
-    <value>Christelle Smit</value>
+  <data name="Private" xml:space="preserve">
+    <value>Privaat</value>
   </data>
-  <data name="ReceptionAdminSubHeader" xml:space="preserve">
-    <value>Ontvangs en Administrasie:</value>
+  <data name="Reason" xml:space="preserve">
+    <value>Rede vir u afspraak / enige verdere inligting?</value>
+  </data>
+  <data name="Surname" xml:space="preserve">
+    <value>Van (*)</value>
+  </data>
+  <data name="WeWillContact" xml:space="preserve">
+    <value>Ons sal u binnekort kontak om die tyd en datum van u afspraak te bevestig.</value>
+  </data>
+  <data name="When" xml:space="preserve">
+    <value>Wanneer sou u graag 'n afspraak wou he? (*)</value>
   </data>
 </root>

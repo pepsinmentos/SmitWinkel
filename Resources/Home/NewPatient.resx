@@ -117,81 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AuxilaryStaff1" xml:space="preserve">
-    <value>Adele Lambrechts</value>
-  </data>
-  <data name="AuxilaryStaff2" xml:space="preserve">
-    <value>Melanie du Plessis</value>
-  </data>
-  <data name="AuxilaryStaff3" xml:space="preserve">
-    <value>Joléne Potgieter</value>
-  </data>
-  <data name="AuxilaryStaff4" xml:space="preserve">
-    <value>Elizabeth Williams</value>
-  </data>
-  <data name="AuxilaryStaff5" xml:space="preserve">
-    <value>Michelle Jejane</value>
-  </data>
-  <data name="AuxilaryStaffSubHeader" xml:space="preserve">
-    <value>Aanvullende Personeel:</value>
-  </data>
   <data name="Content" xml:space="preserve">
-    <value>Tandartse:
-Dr Johan Smit
-Dr Richard Winkel
-Dr Finnie Kelly
-Dr Annetjie Smith
-Mondhigiëniste:
-Christel Visagie
-Rozanne Marais
-Ontvangs en Administrasie
-Jackie Kapp
-Sharon Sprong
-Christelle Smit
-Aanvullende Personeel
-Adele Lambrechts
-Melanie du Plessis
-Joléne Potgieter
-Elizabeth Williams
-Michelle Jejane</value>
-  </data>
-  <data name="Dentist1" xml:space="preserve">
-    <value>Dr Johan Smit</value>
-  </data>
-  <data name="Dentist2" xml:space="preserve">
-    <value>Dr Richard Winkel</value>
-  </data>
-  <data name="Dentist3" xml:space="preserve">
-    <value>Dr Finnie Kelly</value>
-  </data>
-  <data name="Dentist4" xml:space="preserve">
-    <value>Dr Annetjie Smith</value>
-  </data>
-  <data name="DentistsSubHeader" xml:space="preserve">
-    <value>Tandartse:</value>
+    <value>New Patients are welcome at all times. Please feel free to contact us with any queries or make an appointment.
+
+SAVE SOME TIME :: If you'll be visiting us for the first time please complete the form below to minimize administration on your arrival at our Practice.</value>
   </data>
   <data name="Header" xml:space="preserve">
-    <value>Ons Personeel</value>
+    <value>New Patients</value>
   </data>
-  <data name="OralHygienist1" xml:space="preserve">
-    <value>Christel Visagie</value>
+  <data name="NewPatientPara1" xml:space="preserve">
+    <value>New Patients are welcome at all times. Please feel free to contact us with any queries or make an appointment.</value>
   </data>
-  <data name="OralHygienist2" xml:space="preserve">
-    <value>Rozanne Marais</value>
-  </data>
-  <data name="OralHygienistSubHeader" xml:space="preserve">
-    <value>Mondhigiëniste:</value>
-  </data>
-  <data name="ReceptionAdmin1" xml:space="preserve">
-    <value>Jackie Kapp</value>
-  </data>
-  <data name="ReceptionAdmin2" xml:space="preserve">
-    <value>Sharon Sprong</value>
-  </data>
-  <data name="ReceptionAdmin3" xml:space="preserve">
-    <value>Christelle Smit</value>
-  </data>
-  <data name="ReceptionAdminSubHeader" xml:space="preserve">
-    <value>Ontvangs en Administrasie:</value>
+  <data name="NewPatientPara2" xml:space="preserve">
+    <value>SAVE SOME TIME :: If you'll be visiting us for the first time please complete the form below to minimize administration on your arrival at our Practice.</value>
   </data>
 </root>

@@ -134,4 +134,40 @@ Oral hygiene</value>
   <data name="Header" xml:space="preserve">
     <value>Services</value>
   </data>
+  <data name="Service1" xml:space="preserve">
+    <value>Restorative dentistry</value>
+  </data>
+  <data name="Service10" xml:space="preserve">
+    <value>Digital &amp; Panoramic Radiology</value>
+  </data>
+  <data name="Service11" xml:space="preserve">
+    <value>Prosthodontics</value>
+  </data>
+  <data name="Service12" xml:space="preserve">
+    <value>Oral hygiene</value>
+  </data>
+  <data name="Service2" xml:space="preserve">
+    <value>Aesthetic Dentistry</value>
+  </data>
+  <data name="Service3" xml:space="preserve">
+    <value>Gumguards</value>
+  </data>
+  <data name="Service4" xml:space="preserve">
+    <value>Implantology</value>
+  </data>
+  <data name="Service5" xml:space="preserve">
+    <value>Teeth whitening</value>
+  </data>
+  <data name="Service6" xml:space="preserve">
+    <value>Conscious sedation</value>
+  </data>
+  <data name="Service7" xml:space="preserve">
+    <value>Paediatric Dentistry</value>
+  </data>
+  <data name="Service8" xml:space="preserve">
+    <value>CAD-CAM – computerized dentistry (Cerec)</value>
+  </data>
+  <data name="Service9" xml:space="preserve">
+    <value>Root canal treatment</value>
+  </data>
 </root>

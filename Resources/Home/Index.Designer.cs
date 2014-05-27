@@ -71,6 +71,61 @@ namespace SmitWinkel.Resources.Home {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The well-established, modern practise of Drs Smit &amp; Winkel sets the pace in the latest trends and technologies in dental practise, IT and related fields. Apart from regular dental and oral hygiene, specialised cosmetic and aesthetic dentistry, CAD-CAM (Cerec) technology and implantology also form part of their service offering. 
+        ///The four dental practitioners in this northern suburbs clinic share over 90 years of experience between them. Each one diligently ensure they stay informed and at the forefront of  [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string ContentParagraf1 {
+            get {
+                return ResourceManager.GetString("ContentParagraf1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The focus in this buzzing family-oriented practise is on total oral and dental care and it is especially well known for being child-friendly. Anxious patients are also offered the benefit of conscious sedation if required..
+        /// </summary>
+        public static string ContentParagraf2 {
+            get {
+                return ResourceManager.GetString("ContentParagraf2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Meticulous attention is paid to a clinically safe work environment while maintaining a welcoming, stylish interior. A full time assistant ensures equipment is sterilised all through the day. And, should a power outage or water cut ensue work can continue seamlessly..
+        /// </summary>
+        public static string ContentParagraf3 {
+            get {
+                return ResourceManager.GetString("ContentParagraf3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sound human relations – with patients, suppliers, the medical fraternity, staff and other stakeholders – is an uncompromised core value at Drs Smit &amp; Winkel. Patients therefore enjoy quality results, excellent after care and follow-up as a result of established relationships with physicians, maxillo-facial surgeons, orthodontists, periodontists and dental technicians. The staff complement comprises two male dentists; two female dentists; two oral hygienists; and seven supporting and administrative staff - s [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string ContentParagraf4 {
+            get {
+                return ResourceManager.GetString("ContentParagraf4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Drs Smit &amp; Winkel has been operating for over twenty years and is a well-established landmark on the corner of Bill Bezuidenhout Drive and Mountainview Avenue..
+        /// </summary>
+        public static string ContentParagraf5 {
+            get {
+                return ResourceManager.GetString("ContentParagraf5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Each and every member of our team at Drs Smit &amp; Winkel look forward to welcoming you as a patient – be it new or recurrent. Click on “Contact us” to make an online or telephonic appointment..
+        /// </summary>
+        public static string ContentParagraf6 {
+            get {
+                return ResourceManager.GetString("ContentParagraf6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Our practice.
         /// </summary>
         public static string Header {

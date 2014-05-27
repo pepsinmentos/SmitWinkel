@@ -132,6 +132,42 @@ Prostodonsie
 Mondhigiene</value>
   </data>
   <data name="Header" xml:space="preserve">
-    <value>Services</value>
+    <value>Dienste</value>
+  </data>
+  <data name="Service1" xml:space="preserve">
+    <value>Herstellende tandheelkunde</value>
+  </data>
+  <data name="Service10" xml:space="preserve">
+    <value>Digitale en Panoramiese X-strale</value>
+  </data>
+  <data name="Service11" xml:space="preserve">
+    <value>Prostodonsie</value>
+  </data>
+  <data name="Service12" xml:space="preserve">
+    <value>Mondhigiene</value>
+  </data>
+  <data name="Service2" xml:space="preserve">
+    <value>Estetiese tandheelkunde</value>
+  </data>
+  <data name="Service3" xml:space="preserve">
+    <value>Mondskerms</value>
+  </data>
+  <data name="Service4" xml:space="preserve">
+    <value>Implantologie</value>
+  </data>
+  <data name="Service5" xml:space="preserve">
+    <value>Tandbleiking</value>
+  </data>
+  <data name="Service6" xml:space="preserve">
+    <value>Bewuste sedasie</value>
+  </data>
+  <data name="Service7" xml:space="preserve">
+    <value>Pediatriese Tandheelkunde</value>
+  </data>
+  <data name="Service8" xml:space="preserve">
+    <value>CAD-CAM gerekenariseerde tandheelkunde (Cerec)</value>
+  </data>
+  <data name="Service9" xml:space="preserve">
+    <value>Wortelkanaal-behandeling</value>
   </data>
 </root>

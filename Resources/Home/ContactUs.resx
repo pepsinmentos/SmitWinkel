@@ -117,81 +117,88 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AuxilaryStaff1" xml:space="preserve">
-    <value>Adele Lambrechts</value>
+  <data name="Address" xml:space="preserve">
+    <value>2 Mountainview Drive, Bellville</value>
   </data>
-  <data name="AuxilaryStaff2" xml:space="preserve">
-    <value>Melanie du Plessis</value>
+  <data name="AfterHours" xml:space="preserve">
+    <value>(after hours)</value>
   </data>
-  <data name="AuxilaryStaff3" xml:space="preserve">
-    <value>Joléne Potgieter</value>
+  <data name="ByAppointment" xml:space="preserve">
+    <value>(by appointment only)</value>
   </data>
-  <data name="AuxilaryStaff4" xml:space="preserve">
-    <value>Elizabeth Williams</value>
+  <data name="ClickHereAppointment" xml:space="preserve">
+    <value>Click here and complete the form to make an appointment</value>
   </data>
-  <data name="AuxilaryStaff5" xml:space="preserve">
-    <value>Michelle Jejane</value>
-  </data>
-  <data name="AuxilaryStaffSubHeader" xml:space="preserve">
-    <value>Aanvullende Personeel:</value>
+  <data name="ContactNumbers" xml:space="preserve">
+    <value>Contact numbers</value>
   </data>
   <data name="Content" xml:space="preserve">
-    <value>Tandartse:
-Dr Johan Smit
-Dr Richard Winkel
-Dr Finnie Kelly
-Dr Annetjie Smith
-Mondhigiëniste:
-Christel Visagie
-Rozanne Marais
-Ontvangs en Administrasie
-Jackie Kapp
-Sharon Sprong
-Christelle Smit
-Aanvullende Personeel
-Adele Lambrechts
-Melanie du Plessis
-Joléne Potgieter
-Elizabeth Williams
-Michelle Jejane</value>
+    <value>Make an Appointment
+Click here and complete the form to make an appointment
+Office Hours
+Monday-Friday:
+7h30-17h30
+
+Saturdays: 
+(by appointment only) 
+7h30-11h30
+Contact numbers
+Tel: 021 919 5559
+For emergencies 
+call: 083 444 5922     
+(after hours)
+
+Where are we?
+2 Mountainview Drive, Bellville 
+ 
+
+View Map
+
+  
+Wheelchair Friendly
+
+Parking On-site!</value>
   </data>
-  <data name="Dentist1" xml:space="preserve">
-    <value>Dr Johan Smit</value>
+  <data name="Emergency" xml:space="preserve">
+    <value>For emergencies</value>
   </data>
-  <data name="Dentist2" xml:space="preserve">
-    <value>Dr Richard Winkel</value>
-  </data>
-  <data name="Dentist3" xml:space="preserve">
-    <value>Dr Finnie Kelly</value>
-  </data>
-  <data name="Dentist4" xml:space="preserve">
-    <value>Dr Annetjie Smith</value>
-  </data>
-  <data name="DentistsSubHeader" xml:space="preserve">
-    <value>Tandartse:</value>
+  <data name="EmergencyNumber" xml:space="preserve">
+    <value>call: 083 444 5922</value>
   </data>
   <data name="Header" xml:space="preserve">
-    <value>Ons Personeel</value>
+    <value>Contact Us</value>
   </data>
-  <data name="OralHygienist1" xml:space="preserve">
-    <value>Christel Visagie</value>
+  <data name="MakeAppointment" xml:space="preserve">
+    <value>Make an Appointment</value>
   </data>
-  <data name="OralHygienist2" xml:space="preserve">
-    <value>Rozanne Marais</value>
+  <data name="MondayFriday" xml:space="preserve">
+    <value>Monday-Friday:</value>
   </data>
-  <data name="OralHygienistSubHeader" xml:space="preserve">
-    <value>Mondhigiëniste:</value>
+  <data name="MonFriTimes" xml:space="preserve">
+    <value>7h30-17h30</value>
   </data>
-  <data name="ReceptionAdmin1" xml:space="preserve">
-    <value>Jackie Kapp</value>
+  <data name="OfficeHours" xml:space="preserve">
+    <value>Office Hours</value>
   </data>
-  <data name="ReceptionAdmin2" xml:space="preserve">
-    <value>Sharon Sprong</value>
+  <data name="Parking" xml:space="preserve">
+    <value>Parking On-site!</value>
   </data>
-  <data name="ReceptionAdmin3" xml:space="preserve">
-    <value>Christelle Smit</value>
+  <data name="SatTimes" xml:space="preserve">
+    <value>7h30-11h30</value>
   </data>
-  <data name="ReceptionAdminSubHeader" xml:space="preserve">
-    <value>Ontvangs en Administrasie:</value>
+  <data name="Saturdays" xml:space="preserve">
+    <value>Saturdays:</value>
+  </data>
+  <data name="Tel" xml:space="preserve">
+    <value>Tel: 021 919 5559</value>
+  </data>
+  <data name="ViewMap" xml:space="preserve">
+    <value>View Map</value>
+  </data>
+  <data name="Wheelchair" xml:space="preserve">
+    <value>Wheelchair Friendly</value>
+  </data>
+  <data name="WhereAreWe" xml:space="preserve">
+    <value>Where are we?</value>
   </data>
 </root>
