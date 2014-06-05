@@ -117,19 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Home" xml:space="preserve">
-    <value>Home</value>
+  <data name="Appointment" xml:space="preserve">
+    <value>appointment</value>
   </data>
-  <data name="Next" xml:space="preserve">
-    <value>Next</value>
+  <data name="ErrorHeader" xml:space="preserve">
+    <value>Error</value>
   </data>
-  <data name="OtherLanguageKey" xml:space="preserve">
-    <value>af</value>
+  <data name="NewPatient" xml:space="preserve">
+    <value>patient details</value>
   </data>
-  <data name="OtherLanguageName" xml:space="preserve">
-    <value>Afrikaans</value>
+  <data name="Sorry" xml:space="preserve">
+    <value>Something seems to have gone wrong while submitting your </value>
   </data>
-  <data name="Previous" xml:space="preserve">
-    <value>Previous</value>
+  <data name="ToOurPractice" xml:space="preserve">
+    <value>to our practice. We sincerely apologise for the inconvenience caused. Please try again later</value>
   </data>
 </root>

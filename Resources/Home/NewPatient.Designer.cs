@@ -72,6 +72,15 @@ namespace SmitWinkel.Resources.Home {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to New Patient Information Form.
+        /// </summary>
+        public static string Form {
+            get {
+                return ResourceManager.GetString("Form", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to New Patients.
         /// </summary>
         public static string Header {

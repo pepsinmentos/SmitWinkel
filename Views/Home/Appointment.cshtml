@@ -1,0 +1,121 @@
+﻿@using  SmitWinkel.Resources.Home
+@{
+    ViewBag.Title = "Appointment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Appointment</h2>
+<h1>@Appointment.Header</h1>
+<b>@Appointment.PleaseComplete</b>
+<p>@Appointment.WeWillContact</p>
+
+@using(Html.BeginForm("Appointment", "Home", FormMethod.Post))
+{
+    <div class="container">
+        <!-- First Name -->
+        <div class="row">
+            <div class="row">
+                <div class="col-md-3">@Appointment.FirstName</div>
+            </div>
+            <div class="row">
+                <div class="col-md-3"><input type="text" name="first_name" /></div>
+            </div>            
+        </div>
+
+        <!-- Surname -->
+        <div class="row">
+            <div class="row">
+                <div class="col-md-3">@Appointment.Surname</div>
+            </div>
+            <div class="row">
+                <div class="col-md-3"><input type="text" name="surname_name" /></div>
+            </div>            
+        </div>
+
+        <!-- Email -->
+        <div class="row">
+            <div class="row">
+                <div class="col-md-3">@Appointment.Email</div>
+            </div>
+            <div class="row">
+                <div class="col-md-3"><input type="text" name="email" /></div>
+            </div>            
+        </div>
+
+        <!-- Contact Number -->
+        <div class="row">
+            <div class="row">
+                <div class="col-md-3">@Appointment.ContactNumber</div>
+            </div>
+            <div class="row">
+                <div class="col-md-3"><input type="text" name="contact_number" /></div>
+            </div>            
+        </div>
+
+        <!-- Contact Method -->
+        <div class="row">
+            <div class="row">
+                <div class="col-md-3">@Appointment.HowShouldWeContact</div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">@Appointment.Email2 <input type="checkbox" name="email2" /></div>
+                <div class="col-md-3">@Appointment.Phone <input type="checkbox" name="phone" /></div>
+            </div>            
+        </div>
+
+        <!-- Medical Aid -->
+        <div class="row">
+            <div class="row">
+                <div class="col-md-3">@Appointment.MedicalAidQuestion</div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">@Appointment.MedicalAid <input type="checkbox" id="medical_aname" /></div>
+                <div class="col-md-3">@Appointment.Private <input type="checkbox" name="private" /></div>
+            </div>            
+        </div>
+
+        <!-- When? -->
+        <div class="row">
+            <div class="row">
+                <div class="col-md-3">@Appointment.When</div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">@Appointment.MedicalAid
+                    <div class="well">
+                        <div name="datetimepicker2" class="input-append">
+                            <input data-format="MM/dd/yyyy HH:mm:ss PP" type="text" />
+                            <span class="add-on">
+                                <i data-time-icon="icon-time" data-date-icon="icon-calendar"></i>
+                            </span>
+                        </div>                       
+                    </div>
+                </div>                
+            </div>            
+        </div>
+
+           <!-- Reason -->
+        <div class="row">
+            <div class="row">
+                <div class="col-md-3">@Appointment.Reason</div>
+            </div>
+            <div class="row">               
+                <div class="col-md-3"><input type="text" name="reason" /></div>
+            </div>            
+        </div>
+
+        <input type="submit" value="Submit" />
+
+        
+
+
+    </div>
+}
+
+ <script type="text/javascript">
+     $(function () {
+         $('#datetimepicker2').datetimepicker({
+             language: 'en',
+             pick12HourFormat: true
+         });
+     });
+ </script>

@@ -117,19 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Appointment" xml:space="preserve">
+    <value>appointment</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Home</value>
   </data>
-  <data name="Next" xml:space="preserve">
-    <value>Next</value>
+  <data name="NewPatient" xml:space="preserve">
+    <value>patient information</value>
   </data>
-  <data name="OtherLanguageKey" xml:space="preserve">
-    <value>af</value>
+  <data name="Submitted" xml:space="preserve">
+    <value>was successfully sent to our practice. We will contact you soon. Thank you very much</value>
   </data>
-  <data name="OtherLanguageName" xml:space="preserve">
-    <value>Afrikaans</value>
+  <data name="SuccessHeader" xml:space="preserve">
+    <value>Success</value>
   </data>
-  <data name="Previous" xml:space="preserve">
-    <value>Previous</value>
+  <data name="Your" xml:space="preserve">
+    <value>Your</value>
   </data>
 </root>

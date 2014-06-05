@@ -156,8 +156,8 @@ Reason for your appointment / any additional information?</value>
   <data name="Email2" xml:space="preserve">
     <value>E-mail</value>
   </data>
-  <data name="FullName" xml:space="preserve">
-    <value>Full Name (*)</value>
+  <data name="FirstName" xml:space="preserve">
+    <value>First Names (*)</value>
   </data>
   <data name="Header" xml:space="preserve">
     <value>Make an Appointment</value>

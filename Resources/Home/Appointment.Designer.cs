@@ -22,7 +22,7 @@ namespace SmitWinkel.Resources.Home {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Appointment {
+    public class Appointment {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace SmitWinkel.Resources.Home {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SmitWinkel.Resources.Home.Appointment", typeof(Appointment).Assembly);
@@ -51,7 +51,7 @@ namespace SmitWinkel.Resources.Home {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace SmitWinkel.Resources.Home {
         /// <summary>
         ///   Looks up a localized string similar to Contact Number (*).
         /// </summary>
-        internal static string ContactNumber {
+        public static string ContactNumber {
             get {
                 return ResourceManager.GetString("ContactNumber", resourceCulture);
             }
@@ -99,7 +99,7 @@ namespace SmitWinkel.Resources.Home {
         ///
         ///Reason for your appointment / any additional information?.
         /// </summary>
-        internal static string Content {
+        public static string Content {
             get {
                 return ResourceManager.GetString("Content", resourceCulture);
             }
@@ -108,7 +108,7 @@ namespace SmitWinkel.Resources.Home {
         /// <summary>
         ///   Looks up a localized string similar to E-mail (*).
         /// </summary>
-        internal static string Email {
+        public static string Email {
             get {
                 return ResourceManager.GetString("Email", resourceCulture);
             }
@@ -117,25 +117,25 @@ namespace SmitWinkel.Resources.Home {
         /// <summary>
         ///   Looks up a localized string similar to E-mail.
         /// </summary>
-        internal static string Email2 {
+        public static string Email2 {
             get {
                 return ResourceManager.GetString("Email2", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Full Name (*).
+        ///   Looks up a localized string similar to First Names (*).
         /// </summary>
-        internal static string FullName {
+        public static string FirstName {
             get {
-                return ResourceManager.GetString("FullName", resourceCulture);
+                return ResourceManager.GetString("FirstName", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Make an Appointment.
         /// </summary>
-        internal static string Header {
+        public static string Header {
             get {
                 return ResourceManager.GetString("Header", resourceCulture);
             }
@@ -144,7 +144,7 @@ namespace SmitWinkel.Resources.Home {
         /// <summary>
         ///   Looks up a localized string similar to How should we contact you?.
         /// </summary>
-        internal static string HowShouldWeContact {
+        public static string HowShouldWeContact {
             get {
                 return ResourceManager.GetString("HowShouldWeContact", resourceCulture);
             }
@@ -153,7 +153,7 @@ namespace SmitWinkel.Resources.Home {
         /// <summary>
         ///   Looks up a localized string similar to Medical Aid.
         /// </summary>
-        internal static string MedicalAid {
+        public static string MedicalAid {
             get {
                 return ResourceManager.GetString("MedicalAid", resourceCulture);
             }
@@ -162,7 +162,7 @@ namespace SmitWinkel.Resources.Home {
         /// <summary>
         ///   Looks up a localized string similar to Do you have medical aid or are you a private patient? (*).
         /// </summary>
-        internal static string MedicalAidQuestion {
+        public static string MedicalAidQuestion {
             get {
                 return ResourceManager.GetString("MedicalAidQuestion", resourceCulture);
             }
@@ -171,7 +171,7 @@ namespace SmitWinkel.Resources.Home {
         /// <summary>
         ///   Looks up a localized string similar to Phone.
         /// </summary>
-        internal static string Phone {
+        public static string Phone {
             get {
                 return ResourceManager.GetString("Phone", resourceCulture);
             }
@@ -180,7 +180,7 @@ namespace SmitWinkel.Resources.Home {
         /// <summary>
         ///   Looks up a localized string similar to Please complete the following fields to make an appointment..
         /// </summary>
-        internal static string PleaseComplete {
+        public static string PleaseComplete {
             get {
                 return ResourceManager.GetString("PleaseComplete", resourceCulture);
             }
@@ -189,7 +189,7 @@ namespace SmitWinkel.Resources.Home {
         /// <summary>
         ///   Looks up a localized string similar to Private.
         /// </summary>
-        internal static string Private {
+        public static string Private {
             get {
                 return ResourceManager.GetString("Private", resourceCulture);
             }
@@ -198,7 +198,7 @@ namespace SmitWinkel.Resources.Home {
         /// <summary>
         ///   Looks up a localized string similar to Reason for your appointment / any additional information?.
         /// </summary>
-        internal static string Reason {
+        public static string Reason {
             get {
                 return ResourceManager.GetString("Reason", resourceCulture);
             }
@@ -207,7 +207,7 @@ namespace SmitWinkel.Resources.Home {
         /// <summary>
         ///   Looks up a localized string similar to Surname (*).
         /// </summary>
-        internal static string Surname {
+        public static string Surname {
             get {
                 return ResourceManager.GetString("Surname", resourceCulture);
             }
@@ -216,7 +216,7 @@ namespace SmitWinkel.Resources.Home {
         /// <summary>
         ///   Looks up a localized string similar to We will contact you shortly to confirm the time and date of your appointment..
         /// </summary>
-        internal static string WeWillContact {
+        public static string WeWillContact {
             get {
                 return ResourceManager.GetString("WeWillContact", resourceCulture);
             }
@@ -225,7 +225,7 @@ namespace SmitWinkel.Resources.Home {
         /// <summary>
         ///   Looks up a localized string similar to When would you like to have an appointment? (*).
         /// </summary>
-        internal static string When {
+        public static string When {
             get {
                 return ResourceManager.GetString("When", resourceCulture);
             }

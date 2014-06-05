@@ -1,6 +1,17 @@
-﻿@{
+﻿@using SmitWinkel.Resources.Home
+@{
     ViewBag.Title = "NewPatient";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>NewPatient</h2>
+<h2>@NewPatient.Header</h2>
+
+<div>
+    @NewPatient.NewPatientPara1       
+</div>
+
+<div>
+    @NewPatient.NewPatientPara2
+</div>
+
+<a href="PatientForm">@NewPatient.Form</a>

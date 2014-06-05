@@ -1,0 +1,319 @@
+﻿@using SmitWinkel.Resources.Home
+@{
+    ViewBag.Title = "PatientForm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@PatientForm.Header</h2>
+<div>
+    @PatientForm.Header
+</div>
+<form>
+    <div class="container" id="patientForm1" style="display: block">
+        <div>
+            @PatientForm.SubHeader1
+        </div>
+        <table class="table">
+            <tr>
+                <td>@PatientForm.Title</td>
+                <td>
+                    <input type="text" name="title" /></td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.Initials</td>
+                <td>
+                    <input type="text" name="initials" class="validate" /></td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.Surname</td>
+                <td>
+                    <input type="text" name="surname" class="validate" /></td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.PhysicalAddress</td>
+                <td>
+                    <input type="text" name="physicaladdress" /></td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.PostalAddress</td>
+                <td>
+                    <input type="text" name="postaladdress" /></td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.HomeNumber</td>
+                <td>
+                    <input type="text" name="homenumber" /></td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.WorkNumber</td>
+                <td>
+                    <input type="text" name="worknumber" /></td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.CellNumber</td>
+                <td>
+                    <input type="text" name="cellnumber" class="validate" /></td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.MedicalAid</td>
+                <td>
+                    <input type="text" name="medicalaid" /></td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.MedicalAidNumber</td>
+                <td>
+                    <input type="text" name="medicalaidnumber" /></td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.IDNumber</td>
+                <td>
+                    <input type="text" name="idnumber" /></td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.Occupation</td>
+                <td>
+                    <input type="text" name="occupation" /></td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.Employer</td>
+                <td>
+                    <input type="text" name="employer" /></td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.Email</td>
+                <td>
+                    <input type="text" name="email" class="validate" /></td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.NearestFamily</td>
+                <td>
+                    <input type="text" name="nearestfamily" /></td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.Relationship</td>
+                <td>
+                    <input type="text" name="relationship" /></td>
+            </tr>
+        </table>
+    </div>
+    <div class="container" id="patientForm2" style="display: none">
+        <div>
+            @PatientForm.SubHeader2
+        </div>
+        <table class="table">
+            <tr>
+                <td>@PatientForm.PatientSurname</td>
+                <td>
+                    <input type="text" name="patientsurname" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.PatientFullName</td>
+                <td>
+                    <input type="text" name="patientfullname" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.PatientDateOfBirth</td>
+                <td>
+                    <input type="text" name="patientdateofbirth" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.PatientIDNumber</td>
+                <td>
+                    <input type="text" name="patientidnumber" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.PatientOccupation</td>
+                <td>
+                    <input type="text" name="patientoccupation" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.PatientCompany</td>
+                <td>
+                    <input type="text" name="patientcompany" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.PatientHomeLanguage</td>
+                <td>
+                    <input type="text" name="patienthomelanguage" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.PatientMaritalStatus</td>
+                <td>
+                    <input type="text" name="patientmaritalstatus" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.PatientHomeNumber</td>
+                <td>
+                    <input type="text" name="patienthomenumber" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.PatientWorkNumber</td>
+                <td>
+                    <input type="text" name="patientworknumber" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.PatientCellNumber</td>
+                <td>
+                    <input type="text" name="patientcellnumber" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.PatientMedicalDependantNumber</td>
+                <td>
+                    <input type="text" name="patientmedicaldependantnumber" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="container" id="patientForm3" style="display: none">
+        <div>
+            @PatientForm.SubHeader3
+        </div>
+        <table class="table">
+            <tr>
+                <td>@PatientForm.Rheumatic</td>
+                <td>
+                    <input type="checkbox" name="rheumatic" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.CoronaryTrombosis</td>
+                <td>
+                    <input type="checkbox" name="coronarytrombosis" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.Hypertension</td>
+                <td>
+                    <input type="checkbox" name="hypertension" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.Diabetes</td>
+                <td>
+                    <input type="checkbox" name="diabetes" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.KidneyDisease</td>
+                <td>
+                    <input type="checkbox" name="kidney" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.Hepatitus</td>
+                <td>
+                    <input type="checkbox" name="hepatitus" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.AIDS</td>
+                <td>
+                    <input type="checkbox" name="aids" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.Astma</td>
+                <td>
+                    <input type="checkbox" name="astma" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.Allergies</td>
+                <td>
+                    <input type="text" name="allergies" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.Bleeding</td>
+                <td>
+                    <input type="text" name="bleeding" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.Pregnant</td>
+                <td>
+                    <input type="text" name="pregnant" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.Other</td>
+                <td>
+                    <input type="text" name="other" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.Medication</td>
+                <td>
+                    <input type="text" name="medication" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.Smoke</td>
+                <td>
+                    <input type="text" name="smoke" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>@PatientForm.Osteoporosis</td>
+                <td>
+                    <input type="text" name="osteoporosis" />
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <input type="submit" />
+    <a style="display: none">@SmitWinkel.Resources.Common.Previous</a>
+    <a>@SmitWinkel.Resources.Common.Next</a>
+</form>

@@ -117,19 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Home" xml:space="preserve">
-    <value>Home</value>
+  <data name="Appointment" xml:space="preserve">
+    <value>afspraak</value>
   </data>
-  <data name="Next" xml:space="preserve">
-    <value>Next</value>
+  <data name="ErrorHeader" xml:space="preserve">
+    <value>Error</value>
   </data>
-  <data name="OtherLanguageKey" xml:space="preserve">
-    <value>af</value>
+  <data name="NewPatient" xml:space="preserve">
+    <value>pasiënt besonderhede</value>
   </data>
-  <data name="OtherLanguageName" xml:space="preserve">
-    <value>Afrikaans</value>
+  <data name="Sorry" xml:space="preserve">
+    <value>Dit lyk asof iets verkeerd gegaan het terwyl U </value>
   </data>
-  <data name="Previous" xml:space="preserve">
-    <value>Previous</value>
+  <data name="ToOurPractice" xml:space="preserve">
+    <value>na ons praktyk toe probeer stuur het. Ons vra hartlik om verskoning vir die ongemak wat veroorsaak is. Probeer asseblief weer op 'n latere stadium</value>
   </data>
 </root>

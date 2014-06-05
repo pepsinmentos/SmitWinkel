@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SmitWinkel.Resources {
+namespace SmitWinkel.Resources.Home {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace SmitWinkel.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Common {
+    public class Error {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Common() {
+        internal Error() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace SmitWinkel.Resources {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SmitWinkel.Resources.Common", typeof(Common).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SmitWinkel.Resources.Home.Error", typeof(Error).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,47 +61,47 @@ namespace SmitWinkel.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Home.
+        ///   Looks up a localized string similar to appointment.
         /// </summary>
-        public static string Home {
+        public static string Appointment {
             get {
-                return ResourceManager.GetString("Home", resourceCulture);
+                return ResourceManager.GetString("Appointment", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Next.
+        ///   Looks up a localized string similar to Error.
         /// </summary>
-        public static string Next {
+        public static string ErrorHeader {
             get {
-                return ResourceManager.GetString("Next", resourceCulture);
+                return ResourceManager.GetString("ErrorHeader", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to af.
+        ///   Looks up a localized string similar to patient details.
         /// </summary>
-        public static string OtherLanguageKey {
+        public static string NewPatient {
             get {
-                return ResourceManager.GetString("OtherLanguageKey", resourceCulture);
+                return ResourceManager.GetString("NewPatient", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Afrikaans.
+        ///   Looks up a localized string similar to Something seems to have gone wrong while submitting your .
         /// </summary>
-        public static string OtherLanguageName {
+        public static string Sorry {
             get {
-                return ResourceManager.GetString("OtherLanguageName", resourceCulture);
+                return ResourceManager.GetString("Sorry", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Previous.
+        ///   Looks up a localized string similar to to our practice. We sincerely apologise for the inconvenience caused. Please try again later.
         /// </summary>
-        public static string Previous {
+        public static string ToOurPractice {
             get {
-                return ResourceManager.GetString("Previous", resourceCulture);
+                return ResourceManager.GetString("ToOurPractice", resourceCulture);
             }
         }
     }
