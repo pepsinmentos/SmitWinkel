@@ -122,6 +122,9 @@
 
 SPAAR 'n BIETJIE TYD :: As u ons praktyk vir die eerste keer gaan besoek, vul solank hierdie vorm aanlyn in.</value>
   </data>
+  <data name="Form" xml:space="preserve">
+    <value>Nuwe Pasiënt Inligting Vorm</value>
+  </data>
   <data name="Header" xml:space="preserve">
     <value>Nuwe Pasiënte</value>
   </data>

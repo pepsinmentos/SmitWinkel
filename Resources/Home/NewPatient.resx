@@ -122,6 +122,9 @@
 
 SAVE SOME TIME :: If you'll be visiting us for the first time please complete the form below to minimize administration on your arrival at our Practice.</value>
   </data>
+  <data name="Form" xml:space="preserve">
+    <value>New Patient Information Form</value>
+  </data>
   <data name="Header" xml:space="preserve">
     <value>New Patients</value>
   </data>

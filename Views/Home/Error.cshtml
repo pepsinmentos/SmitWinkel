@@ -1,0 +1,17 @@
+﻿@using SmitWinkel.Resources.Home
+
+@{
+    ViewBag.Title = "Error";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Error.ErrorHeader</h2>
+
+<div>    
+    <span>@Error.Sorry @ViewData["Message"] @Error.ToOurPractice </span>
+</div>
+<div>
+   <a href="Index">@SmitWinkel.Resources.Common.Home</a> 
+    <input type="hidden" value="@ViewData["Error"]" />
+</div>
+
