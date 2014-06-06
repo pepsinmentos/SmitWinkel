@@ -188,15 +188,11 @@ textarea {
     display: none;
 }
 
-
-
-
-
-
-
-
-
-
+/*--------- validation ----------*/
+.error
+{
+    border: 2px solid red;
+}
 
 /*--------- bootstrap override ----------*/
 ul, ol {

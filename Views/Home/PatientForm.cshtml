@@ -8,7 +8,7 @@
 <div>
     @PatientForm.Header
 </div>
-<form>
+<form action="/Home/PatientForm" id="newpatientform" method="post" >
     <div class="container" id="patientForm1" style="display: block">
         <div>
             @PatientForm.SubHeader1
@@ -110,6 +110,8 @@
                     <input type="text" name="relationship" /></td>
             </tr>
         </table>
+
+        <a id="next1">@SmitWinkel.Resources.Common.Next</a>
     </div>
     <div class="container" id="patientForm2" style="display: none">
         <div>
@@ -200,6 +202,9 @@
                 </td>
             </tr>
         </table>
+        <a id="prev1">@SmitWinkel.Resources.Common.Previous</a>
+    
+    <a id="next2">@SmitWinkel.Resources.Common.Next</a>
     </div>
     <div class="container" id="patientForm3" style="display: none">
         <div>
@@ -313,7 +318,51 @@
         </table>
     </div>
 
-    <input type="submit" />
-    <a style="display: none">@SmitWinkel.Resources.Common.Previous</a>
-    <a>@SmitWinkel.Resources.Common.Next</a>
+    <input id="submitform" type="submit" style="display: none" />
+    
 </form>
+
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#next1').click(function () {
+            if (Validate('patientForm1')) {
+                $('#patientForm1').hide();
+                $('#patientForm3').hide();
+                $('#submitform').hide();
+                $('#patientForm2').show();
+            }
+        });
+
+        $('#next2').click(function () {
+            if (Validate('patientForm2')) {
+                $('#patientForm1').hide();
+                $('#patientForm2').hide();
+                $('#submitform').show();
+                $('#patientForm3').show();
+                
+            }
+        });
+
+        $('#prev1').click(function () {
+                $('#patientForm2').hide();
+                $('#patientForm3').hide();
+                $('#patientForm1').show();
+                $('#submitform').hide();
+        });
+
+
+
+        $('#submitform').click(function () {
+            if (!Validate('patientForm3')) {
+                e.preventDefault();
+            }
+        });
+
+
+
+
+    });
+
+</script>

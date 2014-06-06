@@ -9,7 +9,7 @@
 <b>@Appointment.PleaseComplete</b>
 <p>@Appointment.WeWillContact</p>
 
-@using(Html.BeginForm("Appointment", "Home", FormMethod.Post))
+@using (Html.BeginForm("Appointment", "Home", FormMethod.Post, new { @id = "appointmentform" }))
 {
     <div class="container">
         <!-- First Name -->
@@ -18,7 +18,7 @@
                 <div class="col-md-3">@Appointment.FirstName</div>
             </div>
             <div class="row">
-                <div class="col-md-3"><input type="text" name="first_name" /></div>
+                <div class="col-md-3"><input type="text" name="first_name" class="validate" /></div>
             </div>            
         </div>
 
@@ -28,7 +28,7 @@
                 <div class="col-md-3">@Appointment.Surname</div>
             </div>
             <div class="row">
-                <div class="col-md-3"><input type="text" name="surname_name" /></div>
+                <div class="col-md-3"><input type="text" name="surname_name" class="validate" /></div>
             </div>            
         </div>
 
@@ -38,7 +38,7 @@
                 <div class="col-md-3">@Appointment.Email</div>
             </div>
             <div class="row">
-                <div class="col-md-3"><input type="text" name="email" /></div>
+                <div class="col-md-3"><input type="text" name="email" class="validate" /></div>
             </div>            
         </div>
 
@@ -48,7 +48,7 @@
                 <div class="col-md-3">@Appointment.ContactNumber</div>
             </div>
             <div class="row">
-                <div class="col-md-3"><input type="text" name="contact_number" /></div>
+                <div class="col-md-3"><input type="text" name="contact_number" class="validate" /></div>
             </div>            
         </div>
 
@@ -58,9 +58,13 @@
                 <div class="col-md-3">@Appointment.HowShouldWeContact</div>
             </div>
             <div class="row">
-                <div class="col-md-3">@Appointment.Email2 <input type="checkbox" name="email2" /></div>
-                <div class="col-md-3">@Appointment.Phone <input type="checkbox" name="phone" /></div>
-            </div>            
+                <div class="col-md-3 radiocontainer">
+                    <div>@Appointment.Email2
+                        <input type="radio" name="contact" class="validate" /></div>
+                    <div>@Appointment.Phone
+                        <input type="radio" name="contact" class="validate" /></div>
+                </div>
+            </div>
         </div>
 
         <!-- Medical Aid -->
@@ -69,8 +73,14 @@
                 <div class="col-md-3">@Appointment.MedicalAidQuestion</div>
             </div>
             <div class="row">
-                <div class="col-md-3">@Appointment.MedicalAid <input type="checkbox" id="medical_aname" /></div>
-                <div class="col-md-3">@Appointment.Private <input type="checkbox" name="private" /></div>
+                <div class="col-md-3 radiocontainer">
+                    <div>@Appointment.MedicalAid
+                        <input type="radio" name="medicalaid" class="validate" />
+                    </div>
+                    <div>@Appointment.Private
+                        <input type="radio" name="medicalaid" class="validate" />
+                    </div>
+                </div>
             </div>            
         </div>
 
@@ -80,15 +90,10 @@
                 <div class="col-md-3">@Appointment.When</div>
             </div>
             <div class="row">
-                <div class="col-md-3">@Appointment.MedicalAid
-                    <div class="well">
-                        <div name="datetimepicker2" class="input-append">
-                            <input data-format="MM/dd/yyyy HH:mm:ss PP" type="text" />
-                            <span class="add-on">
-                                <i data-time-icon="icon-time" data-date-icon="icon-calendar"></i>
-                            </span>
-                        </div>                       
-                    </div>
+                <div class="col-md-3">
+                   <div class="input-group date">
+                       <input type="text" class="form-control validate"><span class="input-group-addon"><i class="glyphicon glyphicon-th" id="calendarpop"></i></span>
+                   </div>
                 </div>                
             </div>            
         </div>
@@ -103,19 +108,24 @@
             </div>            
         </div>
 
-        <input type="submit" value="Submit" />
-
-        
-
-
+        <input type="submit" id="appointmentSubmit" value="Submit" />
     </div>
 }
 
  <script type="text/javascript">
-     $(function () {
-         $('#datetimepicker2').datetimepicker({
-             language: 'en',
-             pick12HourFormat: true
+     $(document).ready(function () {
+         $('#appointmentSubmit').click(function (e) {
+             if (!Validate('appointmentform')){
+                 e.preventDefault();
+             }
          });
+     });
+
+     $('.input-group.date').datepicker({
+         format: "mm/dd/yyyy"
+     });
+
+     $('#calendarpop').click(function () {
+         $('.form-control').removeClass('error');
      });
  </script>
