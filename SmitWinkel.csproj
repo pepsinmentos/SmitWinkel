@@ -20,6 +20,12 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <MvcProjectUpgradeChecked>true</MvcProjectUpgradeChecked>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -217,8 +223,15 @@
     <Content Include="Content\Bootstrap\js\bootstrap-datepicker.js" />
     <Content Include="Content\Bootstrap\js\bootstrap.js" />
     <Content Include="Content\Bootstrap\js\bootstrap.min.js" />
+    <Content Include="Content\Images\background-green.jpg" />
+    <Content Include="Content\Images\banner-top-background-green.jpg" />
+    <Content Include="Content\Images\box1.png" />
+    <Content Include="Content\Images\box2.png" />
+    <Content Include="Content\Images\box3.png" />
+    <Content Include="Content\Images\footer-green.jpg" />
+    <Content Include="Content\Images\home-dentist.jpg" />
     <Content Include="Content\Images\line.jpg" />
-    <Content Include="Content\Images\Logo copy.jpg" />
+    <Content Include="Content\Images\logo.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />

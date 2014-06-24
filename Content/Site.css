@@ -1,137 +1,337 @@
 ﻿body {
-    font-size: 14px;
-    font-family: inherit;
-    color: #232323;
-    background-color: rgb(241, 241, 241)!important;
-    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-width: 900px;
+}
+
+/***********    Navigation  ***********/
+.nav {
+    text-decoration: none;
+    background-color: rgb(248, 248, 248);
+    margin: 0;
+    list-style: none;
     text-align: center;
-}
-
-header,
-footer,
-nav,
-section {
     display: block;
+    padding: 10px 10px 10px 10px;
 }
 
-
-
-
-
-
-
-/*------------------*general styles*-------------------*/
-.centerMe {
-    width: 950px;
-    text-align: left;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-
-.contentContainer {
-    float: right;
-    width: 70%;
-}
-
-
-.links-container {
-    float: left;
-    width: 250px;
-}
-
-.pic-links {
-    background-color: rgb(221, 221, 221);
-    width: 100%;
-    height: 200px;
-    margin: 25px 0px 0px 0px;
-    border-left: 7px solid rgb(72, 137, 197);
-    border-radius: 3px;
-}
-
-.pic-links-text {
-    padding: 5px 0px 0px 15px;
-}
-
-.bodyContainer {
-}
-
-
-/*------------------Navigation---------------------- */
-.headerContainer {
-    background: rgb(97, 97, 97);
-    width: 100%;
-}
-
-.nav-container {
-    height: 40px;
-    padding: 10px 0px 0px 0px;
-}
-
-    .nav-container ul {
-        list-style: none;
-        float: left;
+    .nav > li {
+        display: inline-block;
     }
 
-    .nav-container li {
-        float: left;
-    }
-
-    .nav-container a {
-        text-decoration: none;
-        text-decoration: none;
-        color: white;
-        margin: 0px 27px 0px 0px;
-    }
-
-        .nav-container a:hover {
+        .nav > li > a {
             text-decoration: none;
+            color: rgb(167, 167, 167);
+            padding: 0px 70px 0px 70px;
+            border-right: rgb(228, 228, 228) solid 1px;
         }
 
-.btn-translation {
-    float: right;
+
+.nav-container {
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    font-family: cambria;
+    font-size: 14px;
+}
+/***********    Banner  ***********/
+.banner {
+    background-image: url("Images/banner-top-background-green.jpg");
+    font-family: Cambria, 'Times New Roman';
 }
 
-.endOfContent {
-    background-image: url(Images/line.jpg);
+.banner-container {
+    height: 85px;
+    width: 900px;
+    margin: auto;
+    color: rgb(95, 95, 95);
+}
+
+.banner-logo {
+    float: left;
+    width: 45px;
+    margin: 9px 0px 0px 0px;
+}
+
+.banner-text {
+    float: left;
+    font-size: 39px;
+    margin: 15px 0px 0px 0px;
+}
+
+
+
+.banner-addText {
+    float: right;
+    font-size: 14px;
+    margin: 14px 0px 0px 0px;
+}
+
+    .banner-addText ul {
+        list-style: none;
+    }
+
+/*********  Body  *********/
+.body {
+    background-image: url("Images/background-green.jpg");
     background-position-x: left;
     background-position-y: top;
-    background-repeat: repeat-x;
-    height: 5px;
-    margin-top: 25px;
+    background-size: cover;
+    background-repeat: repeat-y;
+    padding-bottom: 20px;
+    min-height: 754px;
+}
+
+.body-content {
+    width: 900px;
+    margin: auto;
+}
+
+.body-left {
+    float: left;
+}
+
+.body-page {
+    float: right;
+    width: 680px;
+    margin: 10px 0px 10px 5px;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    box-shadow: 7px 8px 6px -10px;
+    border-radius: 10px;
+    min-height: 714px;
+}
+
+.link-box {
+    width: 204px;
+    height: 187px;
+    margin: 10px 10px 10px 0px;
+}
+
+    .link-box img {
+        width: 200px;
+        margin: 2px;
+    }
+
+.link-box-text {
+    margin: -85px 0px 0px 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.greyBoxText {
+    margin: -130px 0px 0px 10px;
+}
+
+.footer {
+    width: 100%;
+    height: 74px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background-image: url("Images/footer-green.jpg");
+    background-position-x: left;
+    background-position-y: top;
+    border-top: 4px solid rgb(134, 172, 147);
+}
+
+
+/********** Index   ***********/
+.index-img {
+    width: 437px;
+    float: right;
+    padding: 28px 0px 0px 0px;
+}
+
+.index-header {
+    box-shadow: 0px 6px 9px -8px;
+}
+
+    .index-header h1 {
+        padding: 0px 0px 14px 0px;
+        font-size: 39px;
+    }
+
+.home-text {
+    font-size: 12px;
+}
+
+@media(max-width:600px) {
+
+    body {
+        width: auto;
+        min-width: 0;
+    }
+
+    .body {
+        padding-bottom: 0px;
+    }
+    /***********    Navigation  ***********/
+    ul > .nav {
+        display: none;
+    }
+
+    .nav > li {
+        display: block;
+        text-align: left;
+    }
+
+        .nav > li > a {
+            text-decoration: none;
+            margin: 10px 0px 13px 0px;
+            border-right: none;
+            border-bottom: 1px solid white;
+            padding: 0px;
+        }
+
+    .nav {
+        display: none;
+    }
+
+    .nav-btn::before {
+        content: "Menu";
+        width: 97%;
+        margin: 1px 0px 0px 10px;
+        padding: 0px;
+        cursor: pointer;
+        display: block;
+    }
+
+
+    .nav-container {
+        border-bottom: 7px solid white;
+        border-top: 3px solid white;
+        font-family: cambria;
+        font-size: 14px;
+        background-color: rgb(238, 238, 238);
+    }
+
+    /**********Body ***********/
+    .body-page {
+        float: none;
+        width: 100%;
+    }
+
+    .body-content {
+        width: 90%;
+    }
+
+    .body-left {
+        width: 105%;
+        float: none;
+    }
+
+    .link-box {
+        width: 43%;
+        height: auto;
+        margin: auto;
+        margin-bottom: 51px;
+        margin-left: 9px;
+        float: left;
+    }
+
+        .link-box img {
+            width: 100%;
+            margin: 2px;
+            display: block;
+        }
+
+    .link-box-text {
+        margin: -62px 0px 0px 12px;
+    }
+
+    .box-descText {
+        display: none;
+    }
+
+    .greyBoxText {
+        margin: -80px 0px 0px 23px;
+        width: 90%;
+    }
+
+    .greybox {
+        width: 91%;
+    }
+
+        .greybox img {
+            width: 98%;
+            height: 106px;
+        }
+    /***********    Banner  ***********/
+    .banner-container {
+        height: 50px;
+        width: 100%;
+        margin: auto;
+        color: rgb(95, 95, 95);
+    }
+
+    .banner-logo {
+        float: left;
+        width: 29px;
+        margin: 6px 0px 0px 6px;
+    }
+
+    .banner-text {
+        float: left;
+        font-size: 20px;
+        margin: 10px 0px 0px 0px;
+    }
+
+    .banner-addText {
+        display: none;
+    }
+
+    /********** Index   ***********/
+    .index-img {
+        width: 100%;
+    }
 }
 
 
 
+@media(max-width:450px) {
 
+    .link-box {
+        width: 45%;
+        height: auto;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-left: 9px;
+        float: left;
+    }
 
+        .link-box img {
+            width: 100%;
+            margin: 2px;
+            display: block;
+        }
 
+    .link-box-text {
+        margin: -54px 0px 0px 10px;
+    }
 
+    .box-descText {
+        display: none;
+    }
 
-/*-----------------------Banner---------------------------*/
+    .greyBoxText {
+        margin: -80px 0px 0px 16px;
+        width: 90%;
+    }
 
-.banner {
-    background-color: rgb(72, 137, 197);
-    height: 109px;
-    border-bottom: 4px solid white;
-    border-top: 4px solid white;
+    .body-left {
+        margin-bottom: 15px;
+    }
+
+    .greybox {
+        width: 95%;
+    }
+
+        .greybox img {
+            width: 98%;
+            height: 106px;
+        }
 }
-
-.logo {
-    font-size: 49px;
-    display: block;
-    color: white;
-    font-family: -webkit-pictograph;
-}
-
-
-
-
-
-
-
 /* Styles for basic forms
 -----------------------------------------------------------*/
 fieldset {
@@ -168,6 +368,13 @@ textarea {
 
 /* Styles for validation helpers
 -----------------------------------------------------------*/
+hr {
+    border: 0;
+    border-top: 1px solid #E0E0E0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .field-validation-error {
     color: #ff0000;
 }
@@ -191,8 +398,7 @@ textarea {
 }
 
 /*--------- validation ----------*/
-.error
-{
+.error {
     border: 2px solid red;
 }
 
@@ -208,4 +414,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 500;
     line-height: 1.1;
     color: inherit;
+    padding: 0px;
+    margin: 0px;
 }
