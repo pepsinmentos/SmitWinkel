@@ -39,8 +39,10 @@ $('span.nav-btn').click(function () {
 $(window).resize(function () {
     if ($(window).width() > 600) {
         $('ul.nav').show();
+        $('.btn-translation-sm').hide();
     }
-    else if ($(window).width() > 600) {
+    else if ($(window).width() < 600) {
         $('ul.nav').hide();
+        $('.btn-translation-sm').show();
     }
 });

@@ -21,26 +21,31 @@
         <div id="banner" class="banner">
             <div class="banner-container clearfix">
                 <img class="banner-logo" src="Content/Images/logo.png" />
-                <div class="banner-text">Smit & Winkel | Dental Surgeons</div>
+                <div class="banner-text">@SmitWinkel.Resources.Home.Layout.Header</div>
                 <div class="banner-addText">
-                    <ul>
-                        <li>Tel: 021 919 5559</li>
-                        <li>2 Mountainview Drive</li>
-                        <li>Bellville</li>
-                    </ul>
+                    @Html.Raw(SmitWinkel.Resources.Home.Layout.HeaderSubText)
+                </div>
+                <div class="translate-container">
+                    <div class="btn-translation">@Html.GlobalisedRouteLink(Common.OtherLanguageName, Common.OtherLanguageKey, ViewContext.RouteData)</div>
                 </div>
             </div>
         </div>
         <div id="nav">
             <nav class="nav-container">
-                <span class="nav-btn"></span>
+                <div class="btn-translation-sm">
+                    @Html.GlobalisedRouteLink(Common.OtherLanguageName, Common.OtherLanguageKey, ViewContext.RouteData)
+                </div>
+                <span class="nav-btn ">
+                </span>
                 <ul class="nav">
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">@SmitWinkel.Resources.Home.Layout.NavLinkHome</a></li>
+                    <li><a href="#">@SmitWinkel.Resources.Home.Layout.NavLinkOurTeam</a></li>
+                    <li><a href="#">@SmitWinkel.Resources.Home.Layout.NavLinkDentalService</a></li>
+                    <li><a href="#">@Html.Raw(SmitWinkel.Resources.Home.Layout.NavLinkNewPatient)</a></li>
+                    <li><a href="#">@SmitWinkel.Resources.Home.Layout.NavLinkContactUs</a></li>
                 </ul>
             </nav>
+
         </div>
         <div id="body" class="body">
             <div class="body-content clearfix">
@@ -53,9 +58,9 @@
                         <div class="link-box">
                             <img src="Content/Images/box1.png" />
                             <div class="link-box-text">
-                                <h4>Book an Appointment</h4>
+                                <h4>@Html.Raw(SmitWinkel.Resources.Home.Layout.ImgBox1Header)</h4>
                                 <div class="box-descText">
-                                    Click here and fill in the form to make an appointment
+                                    @SmitWinkel.Resources.Home.Layout.ImgBox1Text
                                 </div>
 
                             </div>
@@ -63,10 +68,9 @@
                         <div class="link-box">
                             <img src="Content/Images/box2.png" />
                             <div class="link-box-text">
-                                <h4>New Patient?</h4>
+                                <h4>@Html.Raw(SmitWinkel.Resources.Home.Layout.ImgBox2Header)</h4>
                                 <div class="box-descText">
-                                    Save some time and fill in a New
-                                    Patient Registration Form online
+                                    @SmitWinkel.Resources.Home.Layout.ImgBox2Text
                                 </div>
                             </div>
                         </div>
@@ -76,17 +80,8 @@
                         <div class="link-box greybox">
                             <img src="Content/Images/box3.png" />
                             <div class="link-box-text greyBoxText">
-                                <h4>Office Hours</h4>
-                                <span>
-                                    Monday-Friday:
-                                    7h30-17h30
-                                </span>
-                                <br />
-                                <span>
-                                    Saturdays:
-                                    (by appointment only)
-                                    7h30-11h30
-                                </span>
+                                <h4>@SmitWinkel.Resources.Home.Layout.ImgBox3Header</h4>
+                                @Html.Raw(SmitWinkel.Resources.Home.Layout.ImgBox3Text)
                             </div>
                         </div>
                     </div>

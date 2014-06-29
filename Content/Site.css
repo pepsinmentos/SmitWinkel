@@ -6,6 +6,10 @@
     color: #646464;
 }
 
+a {
+    text-decoration: none;
+    color: #646464;
+}
 /***********    Navigation  ***********/
 .nav {
     text-decoration: none;
@@ -15,6 +19,8 @@
     text-align: center;
     display: block;
     padding: 10px 10px 10px 10px;
+    width: 1000px;
+    margin: auto;
 }
 
     .nav > li {
@@ -24,8 +30,12 @@
         .nav > li > a {
             text-decoration: none;
             color: rgb(167, 167, 167);
-            padding: 0px 70px 0px 70px;
+            padding: 0px 55px 0px 55px;
             border-right: rgb(228, 228, 228) solid 1px;
+        }
+
+        .nav > li:last-child > a {
+            border-right: 0px;
         }
 
 
@@ -34,6 +44,10 @@
     border-top: 5px solid white;
     font-family: cambria;
     font-size: 14px;
+    background-color: rgb(248, 248, 248);
+}
+
+.translate-container {
 }
 /***********    Banner  ***********/
 .banner {
@@ -63,15 +77,40 @@
 
 
 .banner-addText {
-    float: right;
+    float: left;
     font-size: 14px;
-    margin: 14px 0px 0px 0px;
+    margin: 14px 0px 0px 57px;
 }
 
     .banner-addText ul {
         list-style: none;
     }
 
+.translate-container {
+    float: right;
+    margin-top: 21px;
+}
+
+.btn-translation {
+    background-color: rgb(136, 187, 165);
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(55, 168, 101);
+    box-shadow: 1px 1px 1px -1px;
+}
+
+    .btn-translation:hover {
+        box-shadow: inset 1px 1px 1px -1px;
+    }
+
+    .btn-translation a, btn-translation a:hover {
+        text-decoration: none;
+        color: rgb(235, 235, 235);
+    }
+
+.btn-translation-sm {
+    display: none;
+}
 /*********  Body  *********/
 .body {
     background-image: url("Images/background-green.jpg");
@@ -206,6 +245,7 @@
         background-color: rgb(238, 238, 238);
     }
 
+
     /**********Body ***********/
     .body-page {
         float: none;
@@ -281,10 +321,27 @@
         display: none;
     }
 
+    .translate-container {
+        display: none;
+    }
     /********** Index   ***********/
     .index-img {
         width: 100%;
     }
+
+    .btn-translation-sm {
+        margin: 0px 10px 0px 0px;
+        padding: 0px 0px 0px 9px;
+        cursor: pointer;
+        display: block;
+        float: right;
+        border-left: 1PX SOLID lightgrey;
+    }
+
+        .btn-translation-sm a {
+            text-decoration: none;
+            color: #646464;
+        }
 }
 
 
